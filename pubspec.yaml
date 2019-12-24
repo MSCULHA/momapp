@@ -1,0 +1,80 @@
+name: momapp
+description: A new Flutter application.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  intl: ">=0.1.0 <0.17.0"
+  table_calendar: ^2.2.1
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  flutter_calendar_carousel: ^1.4.10
+  nepali_utils: ^2.1.0
+  smooth_star_rating: ^1.0.3
+  fluro: ^1.5.1
+
+  # HATA ALANI
+  material_design_icons_flutter: ^3.2.4595
+  appcenter:
+  appcenter_crashes:
+  appcenter_analytics: ^0.2.1
+  cloud_firestore: ^0.12.9+2
+  splashscreen: ^1.2.0
+  flutter_inapp_purchase: ^2.0.0+8
+  flutter_animation_progress_bar: ^1.0.0
+  font_awesome_flutter: ^8.5.0
+  swipe_stack: ^1.0.0
+  cached_network_image: ^1.1.1
+  page_transition: ^1.1.4
+  rflutter_alert: ^1.0.3
+  rxdart: ^0.22.2
+  color: ^2.1.1
+  percent_indicator: ^2.1.1+1
+  shared_preferences: ^0.5.4+5
+  flutter_icons: ^0.1.4
+  flutter_tindercard: ^0.1.8
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/login_logo.png
+
+
+  fonts:
+    - family: WorkSansSemiBold
+      fonts:
+        - asset: assets/fonts/Work_Sans/WorkSans-SemiBold.ttf
+
+    - family: WorkSansBold
+      fonts:
+        - asset: assets/fonts/Work_Sans/WorkSans-Bold.ttf
+
+    - family: WorkSansMedium
+      fonts:
+        - asset: assets/fonts/Work_Sans/WorkSans-Medium.ttf
