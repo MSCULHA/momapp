@@ -144,7 +144,7 @@ class MealsView extends StatelessWidget {
 
                             Navigator.push(
                               context,
-                              MaterialPageRoute(builder: (context) => Home()),
+                              MaterialPageRoute(builder: (context) => CategorySlider()),
                             );
 
                           },
