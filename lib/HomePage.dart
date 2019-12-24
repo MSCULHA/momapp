@@ -168,7 +168,7 @@ class CategorySlider extends StatelessWidget {
                     padding: const EdgeInsets.only(
                         top: 20.0, left: 8.0, bottom: 15.0),
                     child: Container(
-                      child: Text(categoryName,
+                      child: Text('asdasd',
                           style: TextStyle(
                               fontSize:20.0,
                               fontFamily: "Lilita",

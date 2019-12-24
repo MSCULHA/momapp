@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "630196628364",
+    "firebase_url": "https://mathbaby-c02f8.firebaseio.com",
+    "project_id": "mathbaby-c02f8",
+    "storage_bucket": "mathbaby-c02f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:630196628364:android:31706baee8153a050e04a9",
+        "android_client_info": {
+          "package_name": "com.example.momapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "630196628364-8igfi3124nbtnndlksg5ufsneuig8iv7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbeCog2nu-vUtAaaWpHyR9j1vl7cC1UqA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "630196628364-8igfi3124nbtnndlksg5ufsneuig8iv7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
