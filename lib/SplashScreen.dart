@@ -1,3 +1,4 @@
+import 'package:momapp/ui/login_page.dart';
 import 'package:splashscreen/splashscreen.dart';
 import 'package:flutter/material.dart';
 import 'HomePage.dart';
@@ -31,7 +32,7 @@ class _SplashPageState extends State<SplashPage> {
   Widget build(BuildContext context) {
     return new SplashScreen(
       seconds: 4,
-      navigateAfterSeconds: new Home(),
+      navigateAfterSeconds: new LoginPage(),
       image: Image(image: AssetImage('assets/pubStoryLogo.png'),fit: BoxFit.fitWidth,),
       backgroundColor: Color(0xFFee3f46),
       styleTextUnderTheLoader: new TextStyle(),
